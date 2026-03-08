@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node .claude/hooks/session-end.js"
+      }
+    ],
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "node .claude/hooks/session-start.js"
+      }
+    ]
+  }
+}
